@@ -1,5 +1,6 @@
-package com.example;
+package com.example.controller;
 
+import com.example.JPointer;
 import jakarta.json.*;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
