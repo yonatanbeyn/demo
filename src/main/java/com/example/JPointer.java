@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class JPointer {
-    public static String main1() throws IOException, IOException {
+    public static String main1() throws  IOException {
         try (InputStream is =
                      JPointer.class.getClassLoader().getResourceAsStream("user.json");
              JsonReader jr = Json.createReader(is)) {
